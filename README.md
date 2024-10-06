@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ABINAYAN
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning college
+- 🌱 I’m currently learning in college
 - 💞️ I’m looking to collaborate on few major company.
 - 📫 Reach me at given instagram link
 - ⚡ Contact me ph_no: 9345668803
