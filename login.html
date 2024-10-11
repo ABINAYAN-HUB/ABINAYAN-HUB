@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lan="en" and dir="itr">
+    <head>
+        <meta charset="utf-8">
+        <title>TECHNO Login Form</title>
+        <style>
+        body{
+            margin:0;
+            font-family: sans-serif;
+            font-family: sans-serif;
+            font-family: sans-serif;
+            background: url(https://wallpapercave.com/wp/wp2823483.jpg);
+            background-size: cover;
+            
+        }
+        .box{
+            width:300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: transparent;
+            text-align: center;
+        }
+        .box h1
+        {
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .box input[type="text"],.box input[type="password"]
+        {
+        border: 0;
+        background: none;
+        display:block;
+        margin: 20px auto;
+        text-align: center;
+        border: 3px solid #00ffff;
+        padding: 14px 10px;
+        width: 220px;
+        outline:none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.5s;
+        cursor: pointer;
+        }
+        .box input[type="text"]:focus,.box input[type="password"]:focus{
+            width:270px;
+            border-color: #ff4580ec;
+        }    
+        .box input[type="submit"]{
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 3px solid #ff00ddec;
+            padding: 14px 35px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .box input[type="submit"]:hover{
+            background: #ff00ddec;
+        }
+        </style>
+    </head>
+    <body>
+        <from class="box" action="login.html"  method="post">
+            <h1>
+                login
+            </h1>
+            <input type="text" name="uname" placeholder="Enter Username" id="username">
+            <input type="password" name="password" placeholder="Enter password" id="password">
+            <input type="submit" name="" value="login" onclick="validate()">
+
+        </from>
+    </body>
+<script>
+    
+    function validate()
+{
+    var username1= username.value;
+    var password1= password.value;
+   console.log(username1);
+   console.log(password1);
+    if(username1 =="monish"&& password1 =="pj2005")
+    {
+        alert("Senior Developer");
+        return false;
+    }
+    else if(username1 =="raghul"&& password1 =="apple")
+    {
+        alert("Alienware");
+        return false;
+    }
+    else if(username1 =="abinayan"&& password1 =="5326")
+    {
+        alert("Intel Developer");
+        return false;
+    }
+    
+    else if(username1 =="mugundhu"&& password1 =="2006")
+    {
+        alert("46 THE DOCTOR");
+        return false;
+    }
+    else if(username1 =="gokul"&& password1 =="2005")
+    {
+        alert("Workout Freak")
+        return false;
+    }
+    else if(username1 == "ashwin"&& password1 =="2005")
+    {
+        alert("Dog Lover")
+        return false;
+    }
+    else if(username1 == "praneeth"&& password1 =="2006")
+    {
+        alert("Hacker")
+        return false;
+    }
+    else{
+        alert('Login Failed');
+    }
+    
+    
+}
+</script>
