@@ -73,8 +73,8 @@ def complaint():
     print(complaint_sent)
     contact_ph=12345678910
     contact_email='sbibank@gmail.com'
-    print(contact_ph)
-    print(contact_email)
+    print("Contact Us:",contact_ph)
+    print("EMAIL:",contact_email)
 
 s='y'
 while s:
