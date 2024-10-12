@@ -68,7 +68,7 @@ def update():
 
 def complaint():
     complaint=input("Enter the qureyes or complaintes about the bank:")
-    complaint_sent="The complaint reported successfully"
+    complaint_sent="The complaint reported sent successfully"
     print(complaint)
     print(complaint_sent)
     contact_ph=12345678910
